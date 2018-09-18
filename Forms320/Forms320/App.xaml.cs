@@ -10,8 +10,15 @@ namespace Forms320
         public App()
         {
             InitializeComponent();
+            
+            //var page  = new Sample01Page();
+            //var page = new Sample02Page();
+            //var page = new Sample03Page();
+            //var page = new Sample04Page();
+            //var page = new Sample05Page();
+            var page = new Sample06Page();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(page);
         }
 
         protected override void OnStart()

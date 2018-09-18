@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Forms320.Sample02Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Documento de Identidad"
+                   MaxLength="8"
+                   />
+
+            <Entry Placeholder="Email"
+                   IsTextPredictionEnabled="True"
+                   />
+            <Entry Placeholder="Email with no prediction"
+                   IsTextPredictionEnabled="False"
+                   />
+
+            <Entry Placeholder="Your name here" 
+                   ReturnType="Send" 
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

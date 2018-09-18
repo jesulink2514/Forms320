@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Forms320.Sample04Page"
+             Title="Buttons">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Button Padding="10" Text="I'm a button padding 10" BackgroundColor="Blue"/>
+                <Button Padding="20" Text="I'm a button padding 20" BackgroundColor="Aqua"/>
+                <Button Padding="30" Text="I'm a button padding 30" BackgroundColor="Beige"/>
+                <Button Padding="40" Text="I'm a button padding 40" BackgroundColor="Brown"/>
+                <Button Padding="50" Text="I'm a button padding 50" BackgroundColor="CadetBlue"/>
+                <Button Padding="60,100,30,10" Text="I'm a button padding 60" BackgroundColor="LawnGreen"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
